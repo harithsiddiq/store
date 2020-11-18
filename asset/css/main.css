@@ -1,0 +1,26 @@
+.remove-link {
+  position: absolute;
+  margin: auto;
+  bottom: -50px;
+  left: 71px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.img-box {
+  overflow: hidden;
+}
+
+.img-box:hover .remove-link {
+  margin: auto;
+  transform: translateY(-80px);
+}
+
+body {
+    background: pink;
+}
+
